@@ -26,7 +26,7 @@ docker run -d \
   -e TIME_ZONE='US/Central' \
   -v ./certs:/etc/ssl/certs:ro \
   -v ./remote_logs:/logs/remote
-  vladgh/rs
+  vladgh/rsyslog
 ```
 
 Generate self-signed certificates (thanks to https://nacko.net/securing-your-syslog-server-with-tls-ssl-in-centos-6-rhel-6/)
